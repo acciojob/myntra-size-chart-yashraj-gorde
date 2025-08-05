@@ -1,16 +1,32 @@
-
-/* Your CSS Code here. */
-
-#part{
-	background-color:#992d2d;
-}
-#waist{
-	background-color:#d66a6a
+/* Base table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
 }
 
-#chest{
-	background-color:#ebcccc
+th, td {
+  padding: 10px;
+  border: 1px solid black;
 }
-#sleeve{
-	background-color:#d9d9d9
+
+/* Header row (dark red) */
+.header-row {
+  background-color: #992d2d;
+  color: white;
+}
+
+/* Waist row (light red) */
+.waist-row {
+  background-color: #d66a6a;
+}
+
+/* Chest row (light pink) */
+.chest-row {
+  background-color: #ebcccc;
+}
+
+/* Sleeve row (light gray) */
+.sleeve-row {
+  background-color: #d9d9d9;
 }
