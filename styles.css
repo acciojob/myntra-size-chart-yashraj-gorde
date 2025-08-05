@@ -1,32 +1,31 @@
-/* Base table styling */
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 80%;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
   text-align: center;
 }
 
 th, td {
-  padding: 10px;
-  border: 1px solid black;
+  padding: 12px;
+  border: 1px solid #000;
 }
 
-/* Header row (dark red) */
-.header-row {
+/* Header Row */
+thead tr {
   background-color: #992d2d;
   color: white;
 }
 
-/* Waist row (light red) */
-.waist-row {
+/* Row Colors */
+tbody tr:nth-child(1) {
   background-color: #d66a6a;
 }
 
-/* Chest row (light pink) */
-.chest-row {
+tbody tr:nth-child(2) {
   background-color: #ebcccc;
 }
 
-/* Sleeve row (light gray) */
-.sleeve-row {
+tbody tr:nth-child(3) {
   background-color: #d9d9d9;
 }
